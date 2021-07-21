@@ -55,7 +55,6 @@ header{
 }
 
 footer{
-  display: grid;
   background-image:url(images/footer-image.jpg);
   height: 300px;
 }
