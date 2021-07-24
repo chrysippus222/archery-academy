@@ -18,7 +18,7 @@
   grid-column:1/2;
   grid-row: 2/4;
   background-color: #1b447f;
-  padding-left: 10px;
+  padding-left: 1rem;
   align-items: center;
 
   }
@@ -33,7 +33,7 @@
     grid-column: 3/4;
     grid-row: 2/4;
     background-color: #1b447f;
-    padding-left: 10px;
+    padding-left: 1rem;
   }
 
   .a101{
@@ -55,25 +55,39 @@ header{
 }
 
 footer{
-  display: grid;
   background-image:url(images/footer-image.jpg);
-  height: 300px;
+  height: 20%;
 }
 
 
  h1{
-   font-size: 40px;
+   font-size: 2rem;
   font-weight: bold;
  }
  h2{
-   font-size: 24px;
+   font-size: 1.5rem;
    font-weight: bold;
  }
 
  .logo{
-   padding: 15px;
+   padding: 2.5rem;
 
  }
 .links{
-  padding: 15px
+  padding: 1rem;
+}
+
+a{
+  padding: 1rem;
+}
+
+
+.sr-only{
+  position: absolute;
+  left: -10000000px;
+  top:auto;
+  width: 1px;
+  height:1px;
+  overflow: hidden;
+
 }
